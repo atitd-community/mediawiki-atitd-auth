@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad"
+		]
+	},
+	"atitdauth-desc": "Effectue l'authentification pour les utilisateurs par rapport au wiki local, si possible, ou contre le compte ATITD de l'utilisateur si ce n'est pas le cas."
+}

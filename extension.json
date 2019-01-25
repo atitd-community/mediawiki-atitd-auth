@@ -1,0 +1,19 @@
+{
+	"name": "ATITD Auth",
+	"version": "1.1.1",
+	"author": [
+		"[[User:Brad|Brad]]"
+	],
+	"url": "https://github.com/atitd-community/mediawiki-atitd-auth",
+	"descriptionmsg": "atitdauth-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"ATITDAuth": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ATITDAuth\\ATITDPasswordAuthenticationProvider": "ATITDPasswordAuthenticationProvider.php"
+	},
+	"manifest_version": 1
+}

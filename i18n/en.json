@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad"
+		]
+	},
+	"atitdauth-desc": "MediaWiki extension that performs authentication for users against the local Wiki if possible, or against the user's ATITD account if not."
+}

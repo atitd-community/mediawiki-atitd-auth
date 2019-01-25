@@ -1,0 +1,11 @@
+{
+	"name": "atitd-community/mediawiki-atitd-auth",
+	"description": "MediaWiki extension that performs authentication for users against the local Wiki if possible, or against the user's ATITD account if not.",
+	"version": "1.1.1",
+	"homepage": "https://github.com/atitd-community/mediawiki-atitd-auth",
+	"time": "2019-01-25",
+	"license": "Unlicense",
+	"require": {
+		"guzzlehttp/guzzle": "^6.3"
+	}
+}
