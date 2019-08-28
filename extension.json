@@ -6,7 +6,7 @@
 	],
 	"url": "https://github.com/atitd-community/mediawiki-atitd-auth",
 	"descriptionmsg": "atitdauth-desc",
-	"type": "other",
+	"type": "atitd",
 	"MessagesDirs": {
 		"ATITDAuth": [
 			"i18n"
