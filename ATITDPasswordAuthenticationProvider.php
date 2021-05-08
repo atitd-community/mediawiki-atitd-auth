@@ -75,7 +75,7 @@ class ATITDPasswordAuthenticationProvider
 
 		if ( $row ) {
 			$pwhash = $this->getPassword( $row->user_password );
-			if ( !$pwhash->equals( $req->password ) ) {
+			if ( !$pwhash->verify( $req->password ) ) {
 				// User exists locally but password doesn't match or is blank
 				if($this->desertNomadLogin( $username, $req->password )) {
 					$this->updateUserWithDesertNomadCredentials($row->user_id, $username, $req->password);
